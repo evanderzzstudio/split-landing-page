@@ -28,4 +28,13 @@ body {
 .split.left {
     left: 0;
     background: url('images/realistic-3d-advert-with-controller_79603-1258.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split.right {
+    right: 0;
+    background: url('images/futuristic-video-game-equipment-illuminated-nightclub-generative-ai_188544-32105.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
