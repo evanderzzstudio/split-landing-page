@@ -73,6 +73,13 @@ h1 {
     overflow: hidden;
 }
 
+.split.left {
+    left: 0;
+    background: url('images/realistic-3d-advert-with-controller_79603-1258.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .split.left::before {
     content: '';
     position: absolute;
@@ -81,12 +88,7 @@ h1 {
     background-color: var(--left-bg-color);
 }
 
-.split.left {
-    left: 0;
-    background: url('images/realistic-3d-advert-with-controller_79603-1258.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .split.right {
     right: 0;
